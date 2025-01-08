@@ -67,3 +67,14 @@ reserva = Reserva(hotel, habitacion, "2024-01-01", "2024-01-03")
 print("\nReserva:")
 reserva.mostrar_reserva()
 
+
+
+
+
+# DEFINICION DEL PROGRMA
+En este ejemplo se definen tres clases Hotel, Habitacion y Reserva. Cada clase tiene sus propias propiedades y métodos que reflejan el comportamiento y las características de cada entidad en el sistema de reservas.
+La clase Hotel tiene propiedades como nombre, direccion y num_habitaciones, y métodos como agregar_habitacion y mostrar_habitaciones.
+La clase Habitacion tiene propiedades como numero, tipo y precio, y métodos como reservar.
+La clase Reserva tiene propiedades como hotel, habitacion, fecha_entrada y fecha_salida, y métodos como mostrar_reserva.
+
+En el ejemplo, se crea un hotel, se agregan habitaciones al hotel, se muestra la lista de habitaciones, se reserva una habitación y se crea una reserva. Finalmente, se muestra la reserva creada.
